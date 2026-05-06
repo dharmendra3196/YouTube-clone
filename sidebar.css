@@ -1,0 +1,75 @@
+.sidebar{
+  position: fixed;
+  left: 0px;
+  bottom: 0px;
+  top: 70px;
+  width: 75px;
+  background-color: rgb(14, 13, 13);
+  z-index: 200;
+}
+.link-sidebar{
+  background-color: rgb(14, 13, 13);
+  height: 78px;
+  margin-bottom: 2px;
+  border: none;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  cursor: pointer;
+}
+.link-sidebar:hover{
+  background-color: rgb(49, 47, 47);
+  
+}
+.home{
+  width: 25px;
+  margin-top: 20px;
+  margin-left: 23px; 
+}
+.shorts{
+  width:25px;
+  margin-top: 20px;
+  margin-left: 22px; 
+}
+.subscription{
+  width: 35px;
+  margin-top: 10px;
+  margin-left: 19px;
+}
+.you{
+  width:29px;
+  margin-top: 10px;
+  margin-left: 18px;
+}
+.download{
+  width: 25px;
+  margin-top: 20px;
+  margin-left: 22px;
+}
+.home-name{
+  color: white;
+  margin-left: 12px;
+  font-family: Roboto ,Arial;
+}
+.shorts-name{
+  color: white;
+  margin-left: 12px;
+  font-family: Roboto ,Arial;
+}
+.subscription-name{
+  color: white;
+  margin-left: 5px;
+  font-family: Roboto ,Arial;
+  font-size: 13px;
+}
+.you-name{
+  color: white;
+  margin-left: 20px;
+  font-family: Roboto ,Arial;
+}
+.download-name{
+  color: white;
+  font-size: 14px;
+  margin-left: 3px;
+}
